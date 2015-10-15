@@ -7,19 +7,19 @@ body {
     background-color: #20b2aa;
 }
 
-@media only screen and (max-width: 675px) {
+@media only screen and (min-width: 675px) {
     body {
         background-color: #1ce1ce;
     }
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (min-width: 999px) {
     body {
         background-color: #bffcfd;
     }
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) {
     body {
         background-color: #c1ffc1;
     }
