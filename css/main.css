@@ -7,6 +7,8 @@ body {
     background-color: #20b2aa;
 }
 
+/* mobile first */
+
 @media only screen and (min-width: 675px) {
     body {
         background-color: #1ce1ce;
@@ -20,6 +22,22 @@ body {
 }
 
 @media only screen and (min-width: 1280px) {
+    body {
+        background-color: #c1ffc1;
+    }
+}
+/* desktop first */
+@media only screen and (max-width: 1080px) {
+    body {
+        background-color: #1ce1ce;
+    }
+}
+@media only screen and (min-width: 550px) {
+    body {
+        background-color: #bffcfd;
+    }
+}
+@media only screen and (min-width: 400px) {
     body {
         background-color: #c1ffc1;
     }
